@@ -1,0 +1,68 @@
+/* General Style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* box-sizing property allows us to include the padding and border in an element's total width and height*/
+    font-family: 'Lato', sans-serif;
+}
+
+/* Body Background image with responsiveness(width:100%) and background-color for fallback */
+body{
+    display: flex;
+    background-image: url('https://cdn.pixabay.com/photo/2020/07/23/01/29/books-5430104_1280.jpg');
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh; /* he full form of VH is viewport height. It works like the percentage unit as well. Specifying 10vh is equivalent to occupying 10% of entire visible screen height. If you look carefully, you can see that 50vh means 50%, which will cover half of the entire screen height. */
+    background-color: #cccccc;
+}
+
+.container{
+    width: 500px;
+    height: 450px;
+}
+
+.header{
+    font-size: 1.2rem;
+    border: solid 2px #fff;
+    color: #fff;
+    background-color: black;
+    padding: 5px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.main-content{
+    width: 100%;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 50px 40px;
+    box-shadow: 0 0 10px;
+}
+
+.main-content .text-area{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.main-content .person{
+    font-size: 1.6rem;
+    color: red;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.button-area button{
+    background-color:  black;
+    color: white;
+    font-size: 1.3rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.button-area button:active{
+    background-color: rgb(22, 108, 179);
+}
