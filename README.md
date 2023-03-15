@@ -48,6 +48,7 @@ CSS Learnings:
   In this project, I created a stopwatch with play, pause and reset functionlaity.
   Major Learnings:
     window.setInterval(stopWatch,1000) -- this method is used to call the parameterised method, with another set interval parameter, here 1000ms is 1 sec
+    window.clearInterval(timerInterval) -- to stop the timer
     
   JavaScript:
     // Variables for buttons
