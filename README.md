@@ -32,6 +32,7 @@ CSS Learnings:
     sticky -> placed somewhere but it sticks according to user scroll
     
   JavaScript:
+  
     // Variable
 
     const accordion = document.getElementsByClassName('content-container');
